@@ -1,0 +1,285 @@
+@media only screen and (min-width: 1501px) {
+	
+}
+
+/* XL Device :1200px. 1170px */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	
+}
+/* Medium Layout: 1000px.  */
+ 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.nav ul li a {
+		padding: 20px 10px 10px 10px;
+	}
+}
+
+
+
+
+/* Tablet Layout: 768px.  750px*/
+ 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	p {
+		font-size: 13px;
+	}h1 {
+		font-size: 32px;
+	}
+	h4 {
+		font-size: 24px;
+	}
+	.section-header {
+		font-size: 36px;
+	}
+
+	.logo {
+		margin: 0 0;
+	}
+	.logo a img {
+		width: 80%;
+	}
+	.nav ul {
+		padding: 18px 0 0 0;
+		display: block;
+	}
+	.box-btn {
+		padding: 6px 15px;
+		font-size: 13px;
+	}
+	.nav ul li a {
+		padding: 20px 4px 10px 4px;
+		font-size: 14px;
+	}
+	.border-btn {
+		padding: 6px 15px;
+		font-size: 13px;
+	}
+		
+	.banner-area {
+		
+	}
+	::i-block-chrome,.banner {
+		min-height: 400px;
+	}
+	::i-block-chrome,.banner-left {
+		padding: 80px 0;
+	}
+	.banner-contact-link a i {
+		padding: 12px 0;
+		width: 40px;
+		height: 40px;
+		margin: 10px;
+	}
+	.resume-ul-right li {
+		font-size: 13px;
+	}
+	.resume-right ul li p {
+		font-size: 12px;
+	}
+	.resume-right ul li span {
+		font-size: 11px;
+	}
+	.contact-left h2 {
+		font-size: 22px;
+	}
+	.contact-contact-link a i {
+		padding: 12px 0;
+		width: 40px;
+		height: 40px;
+		margin-right: 5px;
+		border-radius: 10px;
+	}
+	.contact-right form label {
+		font-size: 14px;
+	}
+}
+
+
+/* Mobile Layout: 320px. */
+ 
+@media only screen and (max-width: 767px) {	
+	p {
+		font-size: 13px;
+	}
+	.section-header {
+		font-size: 28px;
+	}
+	
+	.header-area button {
+		display: inline;
+		position: fixed;
+		top: 12px;
+		left: 12px;
+		color: white;
+		background-color: orange;
+		border: 0;
+		padding: 5px 10px;
+		border-radius: 4px;
+	}
+	.logo {
+		float: right;
+		text-align: right;
+		margin: 0 0;
+		width: 200px;
+	}
+	.nav {
+		float: left;
+		width: 112%;
+		margin: 0 -15px;
+		background-color: #09434d;
+	}
+	.nav ul {
+		width: 100%;
+		padding: 0 0 0 0;
+		margin-bottom: 0px;
+		display: none;
+	}
+	.nav ul li {
+		display: block;
+		text-align: center;
+		padding: 6px 0;
+	}
+	.nav ul li a {
+		padding: 6px 0;
+		font-size: 12px;
+		display: block;
+		margin: -6px 0;
+	}
+	.nav ul li a:hover {
+		color: white;
+		background-color: orange;
+	}
+	.active-menu {
+		color: white !important;
+		background-color: orange !important;
+	}
+	.box-btn {
+		padding: 6px 15px;
+		font-size: 12px;
+	}
+	.border-btn {
+		padding: 6px 15px;
+		font-size: 12px;
+	}
+	
+	::i-block-chrome,.banner {
+		min-height: 600px;
+	}
+	.banner-left {
+		min-height: 370px;
+		padding: 100px 0;
+	}
+	::i-block-chrome,.banner-left {
+		padding: 100px 0;
+		min-height: 400px;
+	}
+	.banner-left h1 {
+		font-size: 28px;
+	}
+	.banner-left h4 {
+		font-size: 18px;
+	}
+	.banner-right {
+		border-radius: 0;
+		margin-left: -15px;
+		background-color: #09434d;
+	}
+	.banner-contact-link {
+		height: 160px;
+	}
+	.banner-contact-link a i {
+		padding: 12px 0;
+		width: 40px;
+		height: 40px;
+		box-shadow: 0px 0px 10px white;
+	}
+	.banner-right img {
+		padding-top: 15px;
+	}
+
+	::i-block-chrome,.about-area {
+		min-height: 1200px;
+	}
+	.about-content {
+		height: auto;
+	}
+	.about-right li {
+		padding: 3px 0 3px 20px;
+		position: relative;
+	}
+	.about-right li i {
+		position: absolute;
+		content: "";
+		left: 0;
+		top: 8px;
+	}
+	.about-right .border-btn:hover {
+		border: 2px solid black;
+	}
+	.about-right .box-btn:hover {
+		border: 1px solid black;
+	}
+
+	::i-block-chrome,.resume-area {
+		min-height: 1100px;
+	}
+	.resume-left {
+		border-bottom: 1px solid #09434d;
+		border-right: 0;
+	}
+	.resume-left ul {
+		margin-bottom: 0;
+	}
+	.resume-ul-left li {
+		padding: 15px 0;
+	}
+	.resume-ul-right li {
+		padding: 15px;
+	}
+	.resume-ul-right li {
+		font-size: 14px;
+	}
+	.resume-content {
+		background-color: white;
+		box-shadow: 0px 0px 15px white;
+		height: auto;
+		border-radius: 15px;
+		overflow: hidden;
+	}
+	.resume-right ul li span {
+		position: unset;
+		margin-top: 10px;
+	}
+	::i-block-chrome,.resume-right ul li span {
+		position: relative;
+	}
+	.resume-right ul li p {
+		font-size: 12px;
+	}
+
+	::i-block-chrome,.contact-area {
+		min-height: 900px;
+	}
+	.contact-left h2 {
+		font-size: 22px;
+	}
+	.contact-contact-link a i {
+		padding: 12px 0;
+		width: 40px;
+		height: 40px;
+		box-shadow: 0px 0px 10px white;
+	}
+	.contact-contact-link a:hover i {
+		box-shadow: 0px 0px 10px orange;
+	}
+	.contact-right form label {
+		font-size: 14px;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+ 
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
