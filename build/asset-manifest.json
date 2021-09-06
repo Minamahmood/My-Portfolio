@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a588e663.chunk.css",
-    "main.js": "/static/js/main.b0f5dcfa.chunk.js",
-    "main.js.map": "/static/js/main.b0f5dcfa.chunk.js.map",
+    "main.js": "/static/js/main.b69ebab0.chunk.js",
+    "main.js.map": "/static/js/main.b69ebab0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.385ec753.js",
     "runtime-main.js.map": "/static/js/runtime-main.385ec753.js.map",
     "static/js/2.f4a58e9e.chunk.js": "/static/js/2.f4a58e9e.chunk.js",
@@ -14,13 +14,13 @@
     "static/js/2.f4a58e9e.chunk.js.LICENSE.txt": "/static/js/2.f4a58e9e.chunk.js.LICENSE.txt",
     "static/media/Mina-resume.2fea4e5f.docx": "/static/media/Mina-resume.2fea4e5f.docx",
     "static/media/all.min.css": "/static/media/fa-solid-900.e98fbd16.woff",
-    "static/media/me2.caa3d5e2.png": "/static/media/me2.caa3d5e2.png",
-    "static/media/me3.5d567a7b.jpg": "/static/media/me3.5d567a7b.jpg"
+    "static/media/me1.a19bf35b.png": "/static/media/me1.a19bf35b.png",
+    "static/media/mina.bf813d13.png": "/static/media/mina.bf813d13.png"
   },
   "entrypoints": [
     "static/js/runtime-main.385ec753.js",
     "static/js/2.f4a58e9e.chunk.js",
     "static/css/main.a588e663.chunk.css",
-    "static/js/main.b0f5dcfa.chunk.js"
+    "static/js/main.b69ebab0.chunk.js"
   ]
 }
