@@ -2,6 +2,12 @@ import React, { useEffect } from 'react';
 import $ from 'jquery';
 import Header from './Header';
 import Footer from './Footer';
+import project1 from '../img/project1.jpeg';
+import project2 from '../img/project2.jpeg';
+import project3 from '../img/project3.jpeg';
+import project4 from '../img/project4.jpeg';
+import project5 from '../img/project5.jpeg';
+import project6 from '../img/project6.jpeg';
 
 function Resume(){
     useEffect(() => {
@@ -131,38 +137,99 @@ function Resume(){
                                             </ul>
                                             
                                             <ul id="project" style={{display: styles.displayNone}}>
-                                                <li>
-                                                    <h6>University of Legon Accra, Ghana</h6>
-                                                    <p>BACHELOR OF SCIENCE INFORMATION TECHNOLOGY</p>
-                                                    <span className="badge p-2">2014-2018</span>
-                                                </li>
-                                                <li>
-                                                    <h6>University of Legon Accra, Ghana</h6>
-                                                    <p>BACHELOR OF SCIENCE INFORMATION TECHNOLOGY</p>
-                                                    <span className="badge p-2">2019-2020</span>
-                                                </li>
-                                                <li>
-                                                    <h6>University of Legon Accra, Ghana</h6>
-                                                    <p>BACHELOR OF SCIENCE INFORMATION TECHNOLOGY</p>
-                                                    <span className="badge p-2">2007-2012</span>
-                                                </li>
+                                                <div className="row">
+                                                    <div className="col-md-6 float-left mb-4">
+                                                        <div className="demo-project">
+                                                            <div className="demo-project-img d-flex align-items-center">
+                                                                <img src={project1} alt="" />
+                                                            </div>
+                                                            <div className="demo-project-desc">
+                                                                <h2>Dish01</h2>
+                                                                <p>HTML, CSS, JavaScript</p>
+                                                                <a className="box-btn" href="https://fadmin8989.github.io/Dish01/">View</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div className="col-md-6 float-left mb-4">
+                                                        <div className="demo-project">
+                                                            <div className="demo-project-img d-flex align-items-center">
+                                                                <img  src={project2} alt="" />
+                                                            </div>
+                                                            <div className="demo-project-desc">
+                                                                <h2>EMPLOYEE-TRACKER</h2>
+                                                                <p>Noe.js, Express.Js, MySQL</p>
+                                                                <a className="box-btn" href="https://github.com/Minamahmood/Employee-Tracker">View</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div className="col-md-6 float-left mb-4">
+                                                        <div className="demo-project">
+                                                            <div className="demo-project-img d-flex align-items-center">
+                                                                <img  src={project3} alt="" />
+                                                            </div>
+                                                            <div className="demo-project-desc">
+                                                                <h2>Team-Profile-Generator</h2>
+                                                                <p>Project description</p>
+                                                                <a className="box-btn" href="https://github.com/Minamahmood/Team-Profile-Generator">View</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div className="col-md-6 float-left mb-4">
+                                                        <div className="demo-project">
+                                                            <div className="demo-project-img d-flex align-items-center">
+                                                                <img src={project4} alt="" />
+                                                            </div>
+                                                            <div className="demo-project-desc">
+                                                                <h2>WEATHER-DASHBOARD</h2>
+                                                                <p>Project description</p>
+                                                                <a className="box-btn" href="https://minamahmood.github.io/Weather-Dashboard/">View</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div className="col-md-6 float-left mb-4">
+                                                        <div className="demo-project">
+                                                            <div className="demo-project-img d-flex align-items-center">
+                                                                <img src={project5} alt="" />
+                                                            </div>
+                                                            <div className="demo-project-desc">
+                                                                <h2>Taskmaster</h2>
+                                                                <p>Project description</p>
+                                                                <a className="box-btn" href="https://minamahmood.github.io/Taskmaster/">View</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div className="col-md-6 float-left mb-4">
+                                                        <div className="demo-project">
+                                                            <div className="demo-project-img d-flex align-items-center">
+                                                                <img src={project6} alt="" />
+                                                            </div>
+                                                            <div className="demo-project-desc">
+                                                                <h2>Code-Quiz</h2>
+                                                                <p>Project description</p>
+                                                                <a className="box-btn" href="https://minamahmood.github.io/Code-Quiz/">View</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </ul>
                                             
                                             <ul id="interest" style={{display: styles.displayNone}}>
                                                 <li>
-                                                    <h6>University of Legon Accra, Ghana</h6>
-                                                    <p>BACHELOR OF SCIENCE INFORMATION TECHNOLOGY</p>
-                                                    <span className="badge p-2">2014-2018</span>
+                                                    <h6>Cooking</h6>
                                                 </li>
                                                 <li>
-                                                    <h6>University of Legon Accra, Ghana</h6>
-                                                    <p>BACHELOR OF SCIENCE INFORMATION TECHNOLOGY</p>
-                                                    <span className="badge p-2">2019-2020</span>
+                                                    <h6>Interior Design</h6>
                                                 </li>
                                                 <li>
-                                                    <h6>University of Legon Accra, Ghana</h6>
-                                                    <p>BACHELOR OF SCIENCE INFORMATION TECHNOLOGY</p>
-                                                    <span className="badge p-2">2007-2012</span>
+                                                    <h6>Traveling</h6>
+                                                </li>
+                                                <li>
+                                                    <h6>Sports</h6>
                                                 </li>
                                             </ul>
                                         </div>
