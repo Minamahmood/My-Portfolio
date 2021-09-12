@@ -77,23 +77,27 @@ function Resume(){
                                         <div className="resume-right">
                                             <ul id="education">
                                                 <li>
-                                                    <h6>CSAT SOLUTIONS, INC., Houston, Texas</h6>
-                                                    <p>Failure Analysis Tech</p>
-                                                    <span className="badge p-2">2017-2019</span>
-                                                </li>
-                                                <li>Bachelor of Science (B.S.) Degree in Computer Science | 
-
-                                                    <h6> Dijlah University Baghdad, Iraq</h6>
-                                                    <p>Bachelor of Sciencein CSE</p>
-                                                    <span className="badge p-2">1009-2013</span>
+                                                    <h6>Dijlah University Baghdad, Iraq</h6>
+                                                    <p>Bachelor of Science (B.S.) Degree in Computer Science</p>
+                                                    <span className="badge p-2">2009-2013</span>
+                                                </li>                                                
+                                                <li>
+                                                    <h6>University of California, Berkeley</h6>
+                                                    <p>Full stuck web developer (boot camp) </p>
+                                                    <span className="badge p-2">2021-2021</span>
                                                 </li>
                                             </ul>
                                             
                                             <ul id="workHistory" style={{display: styles.displayNone}}>                                                
                                                 <li>
                                                     <h6>AVESTA GROUP., Erbil, Iraq</h6>
-                                                    <p>Web Developer</p>
+                                                    <p>Front-end Web Developer</p>
                                                     <span className="badge p-2">2015-2017</span>
+                                                </li>
+                                                <li>
+                                                    <h6>CSAT solutions, Houston, Texas</h6>
+                                                    <p>Failure Analysis Tech</p>
+                                                    <span className="badge p-2">2017-2019</span>
                                                 </li>
                                             </ul>
                                             
@@ -101,25 +105,25 @@ function Resume(){
                                                 <li>
                                                     <h6>JavaScript</h6>
                                                     <div className="w3-border theme-bg">
-                                                        <div className="barfiller" style={{width: styles.width80}}></div>
+                                                        <div className="barfiller" style={{width: styles.width100}}></div>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <h6>React Native</h6>
                                                     <div className="w3-border theme-bg">
-                                                        <div className="barfiller" style={{width: styles.width90}}></div>
+                                                        <div className="barfiller" style={{width: styles.width100}}></div>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <h6>Node JS</h6>
                                                     <div className="w3-border theme-bg">
-                                                        <div className="barfiller" style={{width: styles.width85}}></div>
+                                                        <div className="barfiller" style={{width: styles.width100}}></div>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <h6>Core Java</h6>
                                                     <div className="w3-border theme-bg">
-                                                        <div className="barfiller" style={{width: styles.width85}}></div>
+                                                        <div className="barfiller" style={{width: styles.width100}}></div>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -131,7 +135,7 @@ function Resume(){
                                                 <li>
                                                     <h6>CSS</h6>
                                                     <div className="w3-border theme-bg">
-                                                        <div className="barfiller" style={{width: styles.width95}}></div>
+                                                        <div className="barfiller" style={{width: styles.width100}}></div>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -144,9 +148,9 @@ function Resume(){
                                                                 <img src={project1} alt="" />
                                                             </div>
                                                             <div className="demo-project-desc">
-                                                                <h2>Dish01</h2>
-                                                                <p>HTML, CSS, JavaScript</p>
-                                                                <a className="box-btn" href="https://fadmin8989.github.io/Dish01/">View</a>
+                                                                <h2>Auto Tracker</h2>
+                                                                <p>Usege: this is an auto tracking system , where users can register their vehicle , view the list of their vehicle and drivers , also can do sign in and sign out </p>
+                                                                <a className="box-btn" href="https://mysterious-beyond-07295.herokuapp.com/user/login">View</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -157,9 +161,9 @@ function Resume(){
                                                                 <img  src={project2} alt="" />
                                                             </div>
                                                             <div className="demo-project-desc">
-                                                                <h2>EMPLOYEE-TRACKER</h2>
-                                                                <p>Noe.js, Express.Js, MySQL</p>
-                                                                <a className="box-btn" href="https://github.com/Minamahmood/Employee-Tracker">View</a>
+                                                                <h2>Dish</h2>
+                                                                <p>Usage:used for food recipe search and to have all about the Calories, Dite Label and Health Labels with the time frame</p>
+                                                                <a className="box-btn" href=" https://fadmin8989.github.io/Dish01">View</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -170,9 +174,9 @@ function Resume(){
                                                                 <img  src={project3} alt="" />
                                                             </div>
                                                             <div className="demo-project-desc">
-                                                                <h2>Team-Profile-Generator</h2>
-                                                                <p>Project description</p>
-                                                                <a className="box-btn" href="https://github.com/Minamahmood/Team-Profile-Generator">View</a>
+                                                                <h2>Day Schedule</h2>
+                                                                <p>Use this to schedule your day</p>
+                                                                <a className="box-btn" href="https://minamahmood.github.io/Taskmaster/">View</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -184,7 +188,7 @@ function Resume(){
                                                             </div>
                                                             <div className="demo-project-desc">
                                                                 <h2>WEATHER-DASHBOARD</h2>
-                                                                <p>Project description</p>
+                                                                <p>Use this to know the weather in any city. if the user has a vacation plan, the user will be able to check the weather in advance</p>
                                                                 <a className="box-btn" href="https://minamahmood.github.io/Weather-Dashboard/">View</a>
                                                             </div>
                                                         </div>
@@ -196,9 +200,9 @@ function Resume(){
                                                                 <img src={project5} alt="" />
                                                             </div>
                                                             <div className="demo-project-desc">
-                                                                <h2>Taskmaster</h2>
-                                                                <p>Project description</p>
-                                                                <a className="box-btn" href="https://minamahmood.github.io/Taskmaster/">View</a>
+                                                                <h2>Team Profile Generator</h2>
+                                                                <p>The Team Profile Generator is a command line input application run in Node that requests information from the user about members of an employee team and generates an HTML file displaying that information. </p>
+                                                                <a className="box-btn" href="https://github.com/Minamahmood/Team-Profile-Generator">View</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -210,7 +214,7 @@ function Resume(){
                                                             </div>
                                                             <div className="demo-project-desc">
                                                                 <h2>Code-Quiz</h2>
-                                                                <p>Project description</p>
+                                                                <p>This website is used to test your skill in js,html,css each time you git a answer wrong you lose time. try to git high score</p>
                                                                 <a className="box-btn" href="https://minamahmood.github.io/Code-Quiz/">View</a>
                                                             </div>
                                                         </div>

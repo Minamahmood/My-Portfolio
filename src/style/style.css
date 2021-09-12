@@ -446,14 +446,17 @@ p{
 .demo-projects {}
 .demo-project {
 	position: relative;
-	height: 100%;
+	height: 240px;
     background: white;
 	overflow: hidden;
+}
+.demo-project:hover .demo-project-desc{
+	display: block;
 }
 .demo-project-desc {
 	position: absolute;
 	content: "";
-	color: white;
+	color: #ffffff;
 	top: 0;
 	left: 0;
 	text-align: center;
@@ -464,6 +467,8 @@ p{
 	padding-left: 5px;
 	padding-right: 5px;
 	overflow: hidden;
+	background-color: #00bcd4;
+    display: none;
 }
 .demo-project-desc h2 {
 	font-size: 24px;
